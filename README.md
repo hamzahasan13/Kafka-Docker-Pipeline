@@ -30,11 +30,11 @@ Prerequisites
     ```
 
 5. **Run Setup.sh to set dependencies and install libraries**:
-    # Makes setup.sh executable
+    ### Makes setup.sh executable
    ```bash
     chmod +x setup.sh  
     ```
-   # Installs dependencies/libraries
+   ### Installs dependencies/libraries
     ```bash
     ./setup.sh         
     ```
