@@ -1,0 +1,5 @@
+confluent-kafka
+pandas
+numpy
+matplotlib
+plotly
