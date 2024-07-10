@@ -2,7 +2,13 @@
 kafka_proj
 
 ## Data 
-processed_user_login_data.json
+aggregated_data.json
 
 ## Misc
 .DS_Store
+
+## Logs
+logs/
+
+## Caches
+src/__pycache__
