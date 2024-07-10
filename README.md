@@ -40,7 +40,7 @@ Prerequisites
     ```
 
 7. **Start Docker and run Docker compose by executing in terminal**:
-   ### For Docker version: 4.32.0 use the following command
+   ### For latest Docker versions: use the following command
     ```bash
     docker compose up
     ```
