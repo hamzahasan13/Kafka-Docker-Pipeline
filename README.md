@@ -71,7 +71,7 @@ Prerequisites
     python src/components/kafka_consumer.py
     ```
 
-    This will activate environment for new terminal, set up error-handling and start the Kafka consumer that processes messages from the `user-login` topic, aggregates data, and publishes processed data to `processed-user-login`. The data after ingestion and aggregation is stored in "aggregated_data.json".
+    This will activate environment for new terminal, set up error-handling and start the Kafka consumer that processes messages from the `user-login` topic, aggregates data, and publishes processed data to `processed-user-login`. The data after ingestion, transformation, aggregation, is stored in "aggregated_data.json". This .json will be updated in real-time.
 
 ## Design Choices
 
