@@ -8,8 +8,8 @@ Setting Up Development Environment
 
 2. Clone this repository:
 
-git clone https://github.com/hamzahasan13/Kafka-Docker-Pipeline.git
-cd Kafka-Docker-Pipeline
+* git clone https://github.com/hamzahasan13/Kafka-Docker-Pipeline.git
+* cd Kafka-Docker-Pipeline
 
 
 
