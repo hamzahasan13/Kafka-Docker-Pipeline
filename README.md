@@ -40,16 +40,21 @@ Prerequisites
     ```
 
 7. **Start Docker and run Docker compose by executing in terminal**:
+   ### For Docker version: 4.32.0 use the following command
     ```bash
+    docker compose up
+    ```
+    ### For older Docker versions use the following command
+   ```bash
     docker-compose up
     ```
 
-8. **Wait until you get the similar output after running docker-compose**:
+9. **Wait until you get the similar output after running docker-compose**:
     ```css
     my-python-producer-1 | Produced message: {"user_id": "5ec2d697-3b93-xxxx-xxxx", "app_version": "2.3.0", "ip": "149.144.xxx.xxx", "locale": "PA", "device_id": "70d46930-4dbf-xxxx-xxxx", "timestamp": 1720622216, "device_type": "android"}
     ```
 
-9. **Once this similar message is received**, open a new terminal and run the following commands in this order:
+10. **Once this similar message is received**, open a new terminal and run the following commands in this order:
     ```bash
     cd Kafka-Docker-Pipeline
     ```
