@@ -60,7 +60,7 @@ Prerequisites
     python src/logger.py
     ```
     ```bash
-    python src/exeption.py
+    python src/exception.py
     ```
     ```bash
     python src/components/kafka_consumer.py
