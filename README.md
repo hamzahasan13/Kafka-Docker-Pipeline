@@ -30,24 +30,26 @@ Prerequisites
     ```
 
 5. **Run Setup.sh to set dependencies and install libraries**:
-    ```bash
-    chmod +x setup.sh  # Makes setup.sh executable
+    # Makes setup.sh executable
+   ```bash
+    chmod +x setup.sh  
     ```
+   # Installs dependencies/libraries
     ```bash
-    ./setup.sh         # Installs dependencies/libraries
+    ./setup.sh         
     ```
 
-6. **Start Docker and run Docker compose by executing in terminal**:
+7. **Start Docker and run Docker compose by executing in terminal**:
     ```bash
     docker-compose up
     ```
 
-7. **Wait until you get the similar output after running docker-compose**:
+8. **Wait until you get the similar output after running docker-compose**:
     ```css
     my-python-producer-1 | Produced message: {"user_id": "5ec2d697-3b93-xxxx-xxxx", "app_version": "2.3.0", "ip": "149.144.xxx.xxx", "locale": "PA", "device_id": "70d46930-4dbf-xxxx-xxxx", "timestamp": 1720622216, "device_type": "android"}
     ```
 
-8. **Once this similar message is received**, open a new terminal and run the following commands in this order:
+9. **Once this similar message is received**, open a new terminal and run the following commands in this order:
     ```bash
     cd Kafka-Docker-Pipeline
     ```
