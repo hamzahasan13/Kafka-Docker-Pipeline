@@ -32,11 +32,11 @@ Prerequisites
 5. **Run Setup.sh to set dependencies and install libraries**:
     ### Makes setup.sh executable
    ```bash
-    chmod +x setup.sh  
+    chmod +x setup.sh
     ```
    ### Installs dependencies/libraries
     ```bash
-    ./setup.sh         
+    ./setup.sh
     ```
 
 7. **Start Docker and run Docker compose by executing in terminal**:
