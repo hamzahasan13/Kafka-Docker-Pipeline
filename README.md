@@ -4,8 +4,8 @@ This project demonstrates the setup of a real-time data pipeline using Kafka and
 ## Project Setup
 1. Prerequisites
 
-* Docker installed on your machine (Docker Installation Guide)
-* Python 3.x installed (Python Installation Guide)
+* Docker installed on your machine (Docker Installation Guide) [https://www.docker.com/]
+* Python 3.9+ installed (Python Installation Guide) [https://www.python.org/downloads/]
 
 Setting Up Development Environment
 
